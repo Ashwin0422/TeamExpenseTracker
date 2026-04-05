@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@keyframes glowpulse {
+  0%, 100% {
+    opacity: 0.65;
+    color: grey; 
+  }
+  50% {
+    opacity: 1;
+    color: #34D399; 
+  }
+}
+
+.team-code {
+  animation: glowpulse 2.8s ease-in-out infinite;
+}
